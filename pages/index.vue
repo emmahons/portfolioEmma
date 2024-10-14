@@ -44,7 +44,7 @@ onMounted(async () => {
                       </svg>
                     </div>
                     <div class="">
-                    <span class="text-xs opacity-80 leading-tight">This dataset is based on a Bureaupixel Github repository with a MIT License. Feel free to download and install it on your local machine.</span>
+                    <span class="text-xs opacity-80 leading-tight">MiND</span>
                     </div>
                   </NuxtLink>
                 </div>
