@@ -16,7 +16,7 @@
 
     <ContentSlot >
       <h1 class="text-4xl font-bold">{{ post.title }}</h1>
-      <p class="text-xl opacity-80" >{{ post.description }}</p>
+      <!-- <p class="text-xl opacity-80" >{{ post.description }}</p> -->
     </ContentSlot>  
 
     <ContentDoc v-slot="{ doc }">

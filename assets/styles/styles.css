@@ -18,3 +18,12 @@ hr{
 ul, li {
     list-style: none;
 }
+
+/* STYLES PAGES */
+
+.first-para-pages {
+    font-family: libre baskerville;
+    font-style: italic;
+    font-size: 18px;
+
+}
