@@ -57,5 +57,5 @@ const { data: posts } = await useAsyncData('posts', () => {
 
 <style>
 .font-semibold {font-family: Josefin Sans;}
-#workstitel {font-family: Josefin Sans;font-size: 30px;}
+#workstitel {font-family: Josefin Sans;font-size: 30px; color:#ff5f03fc}
 </style>
