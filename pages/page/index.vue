@@ -4,7 +4,7 @@
     <Drawer />
   </div>
   <main class="mx-auto max-w-4xl space-y-6 px-4 mb-20">    
-    <div class="text-xl font-bold">
+    <div class="text-xl font-bold" id="workstitel">
       Works
     </div>
     <!-- Responsive Masonry Layout -->
@@ -54,3 +54,8 @@ const { data: posts } = await useAsyncData('posts', () => {
   .find()
 })
 </script>
+
+<style>
+.font-semibold {font-family: Josefin Sans;}
+#workstitel {font-family: Josefin Sans;font-size: 30px;}
+</style>
