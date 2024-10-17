@@ -4,7 +4,7 @@ body {
     color: rgba(0, 0, 0, 0.8);
     }
     .light-mode body {
-    background-color: #ccd8ca;
+    background-color: #fafaf0;
     color: #041f11;
     }
     .dark-mode body {
@@ -12,7 +12,7 @@ body {
     color: #b4b5b5;
     }
     .gray-mode body {
-    background-color: #b8b6b6;
+    background-color: #d8d7ca;
     color: #000000;
     }
     
