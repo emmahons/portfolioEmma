@@ -19,11 +19,14 @@ ul, li {
     list-style: none;
 }
 
+h1{
+    color: #ff5f03fc;
+}
+
 /* STYLES PAGES */
 
 .first-para-pages {
     font-family: libre baskerville;
     font-style: italic;
     font-size: 18px;
-
 }
