@@ -9,6 +9,8 @@ imagegallery:
     - /img/affiches_finaal_juni1.png
     - /img/affiches_finaal_juni2.png
 thumbnail: /img/affiches_finaal_juni1.png
+tags:
+  - Indesign
 included: true
 promoted: "0"
 ---
