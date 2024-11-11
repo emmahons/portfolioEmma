@@ -147,8 +147,10 @@
 
   h1 {
     font-family: "josefin sans", sans-serif;
+    margin-bottom: 2.5rem;
   }
   
 p {
   font-family: "libre baskerville", serif;
+  line-height: 22pt;
 }
