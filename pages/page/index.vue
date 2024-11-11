@@ -4,7 +4,7 @@
     <Drawer />
   </div>
   <main class="mx-auto max-w-4xl space-y-6 px-4 mb-20">    
-    <div class="text-xl font-bold" class="workstitel">
+    <div class="text-xl font-bold">
       Works
     </div>
     <!-- Responsive Masonry Layout -->

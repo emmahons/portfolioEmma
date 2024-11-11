@@ -37,7 +37,7 @@ const direction = ref<DrawerProps['direction']>('rtl')
 
 <style>
 .el-drawer  { background-color: #ff5f03fc; color: #fafaf0;font-family: josefin sans; font-size: large;}
-.dark-mode .el-drawer { background-color: #3A0842}
+.dark-mode .el-drawer { background-color: #6E177B}
 .gray-mode .el-drawer{background-color: #B6D369}
 svg { color: rgb(50, 50, 50)}
 </style>
