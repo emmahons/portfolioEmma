@@ -8,6 +8,7 @@
 .masonry-item {
   break-inside: avoid;
   transition: transform 0.3s, box-shadow 0.1s;
+  padding: 10px;
 }
 
 .masonry-item:hover { 
