@@ -61,7 +61,3 @@ onMounted(async () => {
   </div>
 </div>  
 </template>
-
-<style>
-.text-xl { text-align: center; font-size: 60px; line-height: 140%; margin-bottom: 20px; }
-</style>
