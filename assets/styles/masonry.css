@@ -10,20 +10,22 @@
   transition: transform 0.3s, box-shadow 0.1s;
 }
 
-.masonry-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+.masonry-item:hover { 
+  /* als je deze uitzet dan is de hoover over afbeeldingen weg */
+  /* transform: translateY(-2px); */
+  /*box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.1);*/
 }
+
 .masonry-image {
   break-inside: avoid;
   transition: filter 0.3s ease-in-out;
-  opacity: 0.5;
-  filter: saturate(0.01); /* Initially desaturated */
+  opacity: 1; /*dit heb ik van 0.1 naar 1 veranderd*/
+  filter: saturate(1); /* Initially desaturated - ik heb dit van O.1 naar 1 veranderd */
 }
 
 .masonry-image:hover {
-  opacity: 1;
-  filter: saturate(1); /* Full saturation on hover */
+  /*opacity: 1;*/
+  /*filter: saturate(1); /* Full saturation on hover */
 }
 
 .loader {
