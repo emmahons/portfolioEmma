@@ -23,15 +23,16 @@ if (data.value) {
 }
 </script>
 
-<template>
-  <div>
-    <div v-for="(files, folder) in groupedPagesFiles" :key="folder" class="pt-2">
-      <ul class="">
-        <li v-for="(file, index) in files" :key="index">
-          <a :href="file._path">{{ file.title || file._path }}</a>
-        </li>
-      </ul>
-    </div>
-    <hr>
-  </div>
+<template> <!-- dit wordt niet echt gerbuikt-->
+  <el-collapse accordion>
+    <el-collapse-item title="Work" name="1">
+      <div v-for="(files, folder) in groupedPagesFiles" :key="folder" class="pt-2">
+        <ul class="">
+          <li v-for="(file, index) in files" :key="index">
+            <a :href="file._path">{{ file.title || file._path }}</a>
+          </li>
+        </ul>
+      </div>
+    </el-collapse-item>
+  </el-collapse>
 </template>

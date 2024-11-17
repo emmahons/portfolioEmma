@@ -1,25 +1,31 @@
 .main {
-    height:auto;
-    min-height:100vh;
+    height: auto;
+    min-height: 100vh;
 }
-.container{ /*  als je nu 'containter' in een class zet dan krijgt die deze eigenschappen*/
+
+.container {
+    /*  als je nu 'containter' in een class zet dan krijgt die deze eigenschappen*/
     max-width: 45vw;
     margin-left: auto;
     margin-right: auto;
 }
-p{
+
+p {
     margin-top: .5em;
 }
-hr{
+
+hr {
     border-bottom: 1px solid #ccc;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
 }
-ul, li {
+
+ul,
+li {
     list-style: none;
 }
 
-h1{
+h1 {
     color: #ff5f03fc;
 }
 
@@ -30,4 +36,12 @@ h1{
     font-style: italic;
     font-size: 18px;
     line-height: 2rem;
+}
+
+.accordion ul {
+    background-color: #ff5f03fc;
+}
+
+.accordion button {
+    background-color: #ff5f03fc;
 }
