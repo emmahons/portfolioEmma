@@ -44,4 +44,13 @@ h1 {
 
 .accordion button {
     background-color: #ff5f03fc;
+    color: inherit;
+    font-size: inherit;
+}
+
+.el-collapse-item_content {
+    color: inherit;
+    background-color: #ff5f03fc;
+    padding-bottom: 0px;
+    border-bottom-color: transparent;
 }

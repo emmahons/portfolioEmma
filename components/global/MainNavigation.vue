@@ -1,12 +1,15 @@
 <template>
   <div class="">
     <el-collapse accordion class="accordion">
-      <el-collapse-item title="Work" name="1">
+      <el-collapse-item title="Work" name="1" class="border-transparent">
         <ul v-for="post in folders" :key="post.slug">
           <NuxtLink :to="post._path">
-            <li class="">{{ post.title }}</li>
+            <li class="text-inherit">{{ post.title }}</li>
           </NuxtLink>
         </ul>
+        <NuxtLink to="PageNavigation">
+          see all work
+        </NuxtLink>
       </el-collapse-item>
     </el-collapse>
 
