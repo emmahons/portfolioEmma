@@ -14,6 +14,7 @@ export default {
         gray: 'rgb(128,128,128)',
         backdark: 'rgb(256,256,256)',
         backlight: 'rgb(30,30,30)',
+        'orange': '#ff5f03fc',
       }
     }
   },
@@ -27,7 +28,7 @@ export default {
   ],
 
   plugins: [
-  require('tailwindcss-animated')
+    require('tailwindcss-animated')
   ],
 }
 

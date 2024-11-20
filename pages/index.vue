@@ -25,7 +25,7 @@ onMounted(async () => {
 
 <template>
   <div>
-    <div v-if="settings" class="">
+    <div v-if="settings" class="homepage">
       <!-- Show PromotedContent only if settings.homepageimage is true -->
       <HomepageImage v-if="settings.homepageimage === true" />
       <div v-if="settings.homepageimage === false">
@@ -33,9 +33,26 @@ onMounted(async () => {
           <Drawer />
         </div>
         <div class="container animate-fade animate-once animate-delay-[500ms] mt-10 mb-20">
-          <div class="text-xl font-bold">{{ settings.homepage_title }}</div>
-          <div v-if="settings.homepage_subtitle" class="text-xl font-bold">{{ settings.homepage_subtitle }}</div>
-          <div class="text-sm opacity-80">{{ settings.body }}</div>
+          <div class="text-xl font-bold"> <!--{{ settings.homepage_title }} -->
+            portfolio
+          </div>
+          <div v-if="settings.homepage_subtitle" class="text-4xl font-bold text-center">
+            <!--{{ settings.homepage_subtitle }} -->
+            Emma Hons
+          </div>
+          <div class="text-sm opacity-80"> <!-- {{ settings.body }} --></div>
+          <div class="flex justify-between pt-8 ">
+            <a href="Page" class="hover:text-orange-500">
+              work
+            </a>
+            <a href="about" class="hover:text-orange-500">
+              about
+            </a>
+            <a href="" class="hover:text-orange-500">
+              contact
+            </a>
+          </div>
+
           <PromotedContent v-if="settings.homepageimage === false" />
           <UtilNav />
           <div class="flex">
@@ -52,10 +69,8 @@ onMounted(async () => {
               </div>
             </NuxtLink>
           </div>
-
         </div>
       </div>
-
     </div>
   </div>
 </template>

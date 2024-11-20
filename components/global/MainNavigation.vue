@@ -7,7 +7,7 @@
             <li class="text-inherit">{{ post.title }}</li>
           </NuxtLink>
         </ul>
-        <NuxtLink to="PageNavigation">
+        <NuxtLink to="Page" class="italic">
           see all work
         </NuxtLink>
       </el-collapse-item>
