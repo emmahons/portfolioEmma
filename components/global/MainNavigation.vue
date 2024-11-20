@@ -16,6 +16,10 @@
     <NuxtLink to="about">
       about
     </NuxtLink>
+    
+    <NuxtLink to="contact">
+      contact
+    </NuxtLink>
   </div>
 </template>
 
