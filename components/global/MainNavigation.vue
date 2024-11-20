@@ -16,7 +16,7 @@
     <NuxtLink to="about">
       about
     </NuxtLink>
-    
+    <br>
     <NuxtLink to="contact">
       contact
     </NuxtLink>
