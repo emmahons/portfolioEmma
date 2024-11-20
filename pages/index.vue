@@ -48,7 +48,7 @@ onMounted(async () => {
             <a href="about" class="hover:text-orange-500">
               about
             </a>
-            <a href="" class="hover:text-orange-500">
+            <a href="contact" class="hover:text-orange-500">
               contact
             </a>
           </div>
